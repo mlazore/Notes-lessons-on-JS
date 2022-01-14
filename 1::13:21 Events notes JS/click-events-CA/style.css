@@ -1,0 +1,30 @@
+body {
+    background-color: oldlace;
+}
+
+.thing-1 {
+    color: teal;
+    text-align: center;
+}
+
+.scrolly {
+    width: 200px;
+    height: 200px;
+    border: 2px;
+    border-style: solid;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    position: relative;
+    left: 150px;
+}
+
+.content {
+    background-color: seashell;
+    border-style: outset;
+    width: 500px;
+    height: 750px;
+    position: relative;
+    left: 450px;
+    top: 50px;
+    text-align: center;
+}

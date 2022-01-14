@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Button Things</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1>Clicks, changes, and all things eventful!</h1>
+
+<!-- ---------------------Scroll Events -------------------- -->
+        <h2>Scroll Event:</h2>
+        <div class="scrolly">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem maxime modi aliquid amet perspiciatis beatae perferendis repellat fugit architecto! Consequatur hic debitis voluptatem maxime ipsam magnam ullam rerum neque officiis. Lorem ipsum
+            dolor sit amet consectetur, adipisicing elit. Aliquam ut ab ex beatae facilis, dolorem expedita quisquam, aut eveniet repudiandae aperiam aliquid nob       is perspiciatis sit quidem illum nostrum nihil quae.
+        </div>
+        <div class="secondary">
+
+<!-- ---------------------Mouse Over -------------------- -->
+            <h2>Mouse Over Event:</h2>
+            <h2 onmouseover="superSize(this)" onmouseout="reset(this)">watch this</h2>
+            <h3 class="green-text">Mouse Event</h3>
+
+<!-- ---------------------Click Events -------------------- -->
+            <h2>Click Events:</h2>
+            <button class="click-example">Click Me</button>
+
+            <button onclick="submit(event)">Submit</button>
+
+<!-- ---------------------On Change -------------------- -->
+            <h2>On Change Event:</h2>
+            <input class="text-1">
+            <input onchange="hello(event)">
+        </div>
+    </div>
+
+    <script src="./javaScript/example.js" defer></script>
+</body>
+</html>
