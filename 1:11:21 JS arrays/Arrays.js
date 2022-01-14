@@ -43,4 +43,6 @@ for(var i=0; i<numbers.length; i++){
 }
 console.log(sum)
 
+//if it helps anyone .length is the length of the array aka number of items in the array
+
 
