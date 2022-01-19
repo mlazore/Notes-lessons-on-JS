@@ -31,7 +31,7 @@ let person1 = {
 
 
 // //another way of doing what we just did above
-let person2 = mew Object();
+let person2 = object ();
 
 person2.firstname = `Justin`;
 person2.lastname = `McNeil`;
