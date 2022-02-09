@@ -1,0 +1,7 @@
+//Variable mutation example
+//let vs const vs var
+
+let hello = 15;
+hello = 20;
+
+let coffee 
